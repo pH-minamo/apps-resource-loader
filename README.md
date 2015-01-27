@@ -25,6 +25,12 @@ Remember that you need permission in the `manifest.json` to all domains you will
 For other usages, please see the simple demo at:
 https://github.com/GoogleChrome/apps-resource-loader/tree/master/demo
 
+## npm and browserify
+
+`npm install apps-resource-loader`
+
+`var RAL = require('apps-resource-loader');`
+
 ## LICENSE
 
 Copyright 2013 Google Inc. All Rights Reserved.

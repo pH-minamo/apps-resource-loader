@@ -1,0 +1,33 @@
+{
+  "name": "apps-resource-loader",
+  "version": "0.1.1",
+  "description": "Chrome Packaged Apps Resource Loader",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pH200/apps-resource-loader.git"
+  },
+  "keywords": [
+    "chrome",
+    "chrome-apps",
+    "CSP",
+    "browserify",
+    "browserify-shim"
+  ],
+  "author": "pH200",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/pH200/apps-resource-loader/issues"
+  },
+  "homepage": "https://github.com/pH200/apps-resource-loader",
+  "devDependencies": {
+    "browserify-shim": "^3.8.2",
+    "shelljs": "^0.3.0"
+  },
+  "browserify": {
+    "transform": "browserify-shim"
+  },
+  "browserify-shim": {
+    "./lib/ral.js": "RAL"
+  }
+}
